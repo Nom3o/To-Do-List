@@ -9,11 +9,11 @@ body {
 }
 #app {
     width: 300px;
-    background: rgba(255, 255, 255, 0.8); /* Transparent background */
+    background: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    backdrop-filter: blur(10px); /* For the glowing effect */
+    backdrop-filter: blur(10px); 
 }
 #tasks {
     margin: 0;
