@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#app {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.8); /* Transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px); /* For the glowing effect */
+}
+#tasks {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#tasks li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+#tasks li:last-child {
+    border-bottom: none;
+}
+.task-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.btn:hover {
+    background: #4cae4c;
+}
+.checkbox {
+    margin-right: 10px;
+}
+.delete-btn {
+    margin-left: auto;
+    background: #d9534f;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    background: #c9302c;
+}
